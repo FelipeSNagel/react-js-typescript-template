@@ -2,7 +2,9 @@ import React from 'react';
 import { useAuth } from 'contexts/AuthContext';
 import { Container } from './styles';
 
-function SignIn() {
+import { Button } from 'reactstrap';
+
+function SignInPage() {
   const { SignIn } = useAuth();
 
   function handleLogin() {
@@ -11,9 +13,9 @@ function SignIn() {
 
   return (
     <Container>
-      <button onClick={handleLogin}>Login</button>
+      <Button onClick={handleLogin}>Login</Button>
     </Container>
   );
 }
 
-export default SignIn;
+export default SignInPage;

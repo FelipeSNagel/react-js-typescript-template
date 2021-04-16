@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
 import AuthRoutes from './AuthRoutes';
 import OtherRoutes from './OtherRoutes';
